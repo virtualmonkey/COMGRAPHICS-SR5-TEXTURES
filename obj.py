@@ -1,7 +1,6 @@
 import struct
 
-def color(r, g, b):
-    return bytes([int(b * 255), int(g * 255), int(r * 255)])
+from utils.gl_color import color
 
 class Obj(object):
     def __init__(self, filename):
